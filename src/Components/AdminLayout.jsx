@@ -41,6 +41,7 @@ const AdminLayout = () => {
       {/* Mobile Sidebar Drawer */}
       {mobileMenuOpen && (
         <>
+        
           {/* Overlay */}
           <div 
             className="fixed inset-0 bg-black/50 z-30 md:hidden"

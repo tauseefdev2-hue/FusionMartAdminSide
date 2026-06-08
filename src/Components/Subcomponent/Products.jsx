@@ -5,7 +5,19 @@ import StatusBadge from './StatusBadge'
 const Products = () => {
   const [selected, setSelected] = useState([])
   const [expandedrow, setExpandedrow] = useState(null)
-
+const [hoveredrow,setHoveredrow]=useState(null)
+const handlesingledelete=(id,name)=>{
+  if(window.confirm(`delete ${name}`)){
+    alert(`deleted item ${id}`)
+  }
+    console.log(`deleted item ${id}`)
+}
+ const handleview=(id)=>{
+   console.log(`view ${id}`)
+ }
+ const handleedit=(id)=>{
+   console.log(`edit ${id}`)
+ }
   const toggleSelect = (id) => {
     setSelected((prev) =>
       prev.includes(id)
@@ -218,7 +230,7 @@ const Products = () => {
             {filtereddata.length > 0 ? (
               currentitems.map((item, index) => (
                 <React.Fragment key={index}>
-                  <tr className="hover:bg-gray-50 transition-colors duration-200 border-b">
+                  <tr className="hover:bg-gray-50 transition-colors duration-200 border-b" onMouseEnter={()=>setHoveredrow(index)} onMouseLeave={()=>setHoveredrow(null)}>
                     <td className="px-4 py-3">
                       <input
                         type="checkbox"
@@ -267,6 +279,45 @@ const Products = () => {
                       >
                         {expandedrow === index ? "Hide Details" : "Show Details"}
                       </button>
+                      <div className={`hidden md:flex items-center gap-2 transition-opacity duration-200 ${
+                        hoveredrow===index?'opacity-100':'opacity-0'
+                      }`}>
+                        <button onClick={()=>handleview(item.id) }       className="p-2 text-blue-600 hover:bg-blue-50 rounded-full transition-colors"
+>      👁️
+</button>
+  <button onClick={()=>handleedit(item.id) }       className="p-2 text-blue-600 hover:bg-blue-50 rounded-full transition-colors"
+>      ✏️
+</button>
+  <button onClick={()=>handlesingledelete(item.id,item.name) }    // ❌ Wrong hover color for delete button
+
+className="p-2 text-red-600 hover:bg-red-50 rounded-full transition-colors"
+>            🗑️
+</button>
+                      
+                      </div>
+                      <div className="flex md:hidden items-center gap-2">
+                           <button
+      onClick={() => handleview(item.id)}
+      className="p-2 text-blue-600 hover:bg-blue-50 rounded-full"
+      title="View"
+    >
+      👁️
+    </button>
+    <button
+      onClick={() => handleedit(item.id)}
+      className="p-2 text-green-600 hover:bg-green-50 rounded-full"
+      title="Edit"
+    >
+      ✏️
+    </button>
+    <button
+      onClick={() => handlesingledelete(item.id, item.name)}
+      className="p-2 text-red-600 hover:bg-red-50 rounded-full"
+      title="Delete"
+    >
+      🗑️
+    </button>
+                      </div>
                     </td>
                   </tr>
                   
