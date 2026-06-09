@@ -12,10 +12,10 @@ const Sidebar = ({ collapsed, isMobile, onClose }) => {
     { name: 'DashBoard', icon: <MdDashboardCustomize size={22} /> , path:'/admin/dashboard'},
     { name: 'Products', icon: <MdOutlineProductionQuantityLimits size={22} />,path:'/admin/products' },
     { name: 'Orders', icon: <FaShoppingCart size={20} />,path:'/admin/orders' },
-    { name: 'Users', icon: <FaUsers size={20} /> },
+    { name: 'Users', icon: <FaUsers size={20} /> ,path:'/admin/users' },
     { name: 'Coupons', icon: <RiCoupon3Fill size={20} /> },
     { name: 'Delivery', icon: <FaTruck size={20} /> },
-    { name: 'Returns', icon: <MdAssignmentReturn size={20} /> },
+    { name: 'Returns', icon: <MdAssignmentReturn size={20} /> ,path:'/admin/returns' },
     { name: 'Settings', icon: <IoSettingsSharp size={20} /> },
   ];
 

@@ -1,0 +1,33 @@
+export const mockReturns = [
+  {
+    id: "RET-001",
+    orderId: "ORD-1002",
+    product: "Nike Air Max",
+    reason: "Wrong size",
+    amount: 18999,
+    date: "2025-02-11",
+    status: "pending",
+    customerNote: "Size 10 doesn't fit",
+    refundMethod: "Original payment",
+  },
+  {
+    id: "RET-002",
+    orderId: "ORD-1001",
+    product: "Rolex Submariner",
+    reason: "Defective movement",
+    amount: 285000,
+    date: "2025-02-09",
+    status: "approved",
+    internalNote: "Will inspect first",
+    pickupDate: "2025-02-15",
+  },
+  {
+    id: "RET-003",
+    orderId: "ORD-1004",
+    product: "Leather Tote",
+    reason: "Changed mind",
+    amount: 12999,
+    date: "2025-02-12",
+    status: "pending",
+  },
+];

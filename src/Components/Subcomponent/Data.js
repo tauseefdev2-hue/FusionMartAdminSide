@@ -9,9 +9,9 @@ export const productdata = [
     Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+      thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "M", "L", "XL", "XXL"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.
@@ -43,9 +43,9 @@ Crafted from soft, breathable fabric, it ensures all-day comfort while maintaini
   Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+       thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "M", "L", "Xl"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.
@@ -77,9 +77,9 @@ Crafted from soft, breathable fabric, it ensures all-day comfort while maintaini
    Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+      thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "M", "L", "Xl"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.
@@ -111,9 +111,9 @@ Crafted from soft, breathable fabric, it ensures all-day comfort while maintaini
  Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+      thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "L", "XL", "XXL"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.
@@ -146,9 +146,9 @@ Crafted from soft, breathable fabric, it ensures all-day comfort while maintaini
   Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+     thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "M", "L", "Xl"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.
@@ -179,9 +179,9 @@ Crafted from soft, breathable fabric, it ensures all-day comfort while maintaini
     Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+       thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "M", "L", "XL", "XXL"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.
@@ -213,9 +213,9 @@ Crafted from soft, breathable fabric, it ensures all-day comfort while maintaini
   Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+      thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "M", "L", "Xl"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.
@@ -247,9 +247,9 @@ Crafted from soft, breathable fabric, it ensures all-day comfort while maintaini
    Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+   thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "M", "L", "Xl"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.
@@ -281,9 +281,9 @@ Crafted from soft, breathable fabric, it ensures all-day comfort while maintaini
  Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+      thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "L", "XL", "XXL"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.
@@ -316,9 +316,9 @@ Crafted from soft, breathable fabric, it ensures all-day comfort while maintaini
   Allimages: {
       firstImg: "/m11.webp",
       secondImg: "/m2.webp",
-      thirdImg: "m3.webp",
-      fourthImg: "m4.webp",
-      fifthImg: "m5.webp",
+      thirdImg: "/m3.webp",
+      fourthImg: "/m4.webp",
+      fifthImg: "/m5.webp",
     },
     sizes: ["S", "M", "L", "Xl"],
     description: `Upgrade your everyday style with the refined look of the Men’s Signature Embroidered Contrast Neck Henley T-Shirt. Designed to stand out, this tee features a stylish contrast ribbed neckline and a classic Henley button placket, giving it a smart yet relaxed appeal.

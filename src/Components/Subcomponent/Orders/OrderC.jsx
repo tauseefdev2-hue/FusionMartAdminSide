@@ -110,7 +110,7 @@ const OrderC = () => {
                         {/* Address */}
                         <div>
                           <h4 className="font-bold text-gray-700 mb-3 flex items-center gap-2">
-                            📍 Address Details
+                             Address Details
                           </h4>
                           <p className="text-gray-600 leading-relaxed">
                             {item.address.street}<br />
@@ -122,7 +122,7 @@ const OrderC = () => {
                         {/* Timeline */}
                         <div>
                           <h4 className="font-bold text-gray-700 mb-3 flex items-center gap-2">
-                            ⏱️ Order Timeline
+                             Order Timeline
                           </h4>
                           <div className="space-y-3">
                             {item.timeline.map((entry, idx) => (
