@@ -3,7 +3,7 @@ import React from 'react'
 import Sidebar from './Components/Sidebar'
 import AdminLayout from './Components/AdminLayout'
 import { Navigate, Route,BrowserRouter as Router, Routes } from 'react-router-dom'
-import DashBoard from './Components/DashBoard'
+import DashBoard from './Components/Subcomponent/Stats/DashBoard'
 import Products from './Components/Subcomponent/Products'
 import Login from './Components/Login'
 import AdminRoute from './Components/AdminRoute'
@@ -39,16 +39,4 @@ const App = () => {
 }
 
 export default App
-// import React from 'react'
-// import 'react-toastify/dist/ReactToastify.css';
-// import MixUsers from './Components/MixUsers';
 
-// const App = () => {
-//   return (
-//     <>
-//       <MixUsers/>
-//     </>
-//   )
-// }
-
-// export default App
